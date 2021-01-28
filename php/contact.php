@@ -15,7 +15,7 @@
         
         if (empty($array["firstname"]))
         {
-            $array["firstnameError"] = "Je veux connaitre votre prénom !";
+            $array["firstnameError"] = "Information requise !";
             $array["isSuccess"] = false; 
         } 
         else
@@ -25,7 +25,7 @@
 
         if (empty($array["name"]))
         {
-            $array["nameError"] = "Et oui je veux tout savoir. Même votre nom !";
+            $array["nameError"] = "Information requise !";
             $array["isSuccess"] = false; 
         } 
         else
